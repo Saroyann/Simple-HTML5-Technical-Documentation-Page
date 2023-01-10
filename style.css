@@ -1,20 +1,18 @@
+html,
 body {
-    margin: 0px;
-    padding: 0px;
-}
-
-html {
-    margin: 0px;
-    padding: px;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-weight:bold;
 
 }
 
-ul li {
+.Nav-list {
     list-style: none;
 }
