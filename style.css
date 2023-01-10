@@ -7,3 +7,14 @@ html {
     margin: 0px;
     padding: px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+
+}
+
+ul li {
+    list-style: none;
+}
