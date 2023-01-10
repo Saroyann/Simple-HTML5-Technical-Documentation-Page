@@ -1,6 +1,5 @@
 html,
 body {
-    min-width: 290px;
     color: #4d4e53;
     background-color: #ffffff;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -34,7 +33,7 @@ header {
 
 #main-doc header {
     text-align: left;
-    margin: 0px;
+    margin-top: 5px;
 
 }
 
@@ -50,5 +49,17 @@ header {
     top: 0px;
     margin-left: 300px;
     padding: 20px;
-    border-left: 3px solid;
+    border-left: 3px solid orange;
+}
+
+img {
+    width: 200px;
+}
+
+.code {
+    background-color: #111;
+}
+
+code {
+    color: rgb(204, 204, 204);
 }
