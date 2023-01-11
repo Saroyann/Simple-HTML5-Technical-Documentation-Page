@@ -4,6 +4,8 @@ body {
     background-color: #ffffff;
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-out;
 }
 
 a {
@@ -66,4 +68,5 @@ code {
 
 a:hover {
     background-color: orange;
+    transition: ease 0.5s;
 }
