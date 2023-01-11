@@ -18,7 +18,7 @@
         <ul class="Nav-list">
             <li class="Nav-list"><a class="nav-link" href="#Introduction">Introduction</a></li>
             <li class="Nav-list"><a a class="nav-link" href="#HTML5_Anatomy">HTML5 Anatomy</a></li>
-            <li class="Nav-list"><a class="nav-link" href="#Element">Element</a></li>
+            <li class="Nav-list"><a class="nav-link" href="#Tag">Tag</a></li>
             <li class="Nav-list"><a class="nav-link" href="#Multimedia">Multimedia</a></li>
             <li class="Nav-list"><a class="nav-link" href="#Form">Form</a></li>
             <li class="Nav-list"><a class="nav-link" href="#Table">Table</a></li>
@@ -54,7 +54,7 @@
             <p>Before writing HTML5, you must first know about the anatomical structure of HTML5.</p>
             <p>In general, HTML5 has the following anatomical structure:</p>
             <div class="code">
-                <code>
+                <code class="code">
                     &lt;!DOCTYPE html&gt;
         <br> &lt;html&gt;       
         <br> &lt;head&gt;
@@ -74,8 +74,7 @@
 
             <h4>&lt;html&gt; ... &lt;/html&gt;</h4>
             <p>
-                The &lt;HTML&gt; tag is the root, meaning that all the tags inside the &lt;HTML&gt; tag represent the
-                appearance of an HTML document.
+                The &lt;html&gt; tag in HTML is the root tag used to mark the start and end of an HTML document. All elements used in web pages must be placed inside html tags.
             </p>
 
             <h4>&lt;head&gt;...&lt;/head&gt;</h4>
@@ -85,19 +84,37 @@
 
             <h4>&lt;meta&gt;</h4>
             <p>
-                &lt;meta&gt; tags are used to provide information about the HTML document itself. &lt;meta&gt; are used in the head section of a web page to provide additional information about that page to browsers, search engines, or other applications that access the page.
+                &lt;meta&gt; tags are used to provide information about the HTML document itself. &lt;meta&gt; are used in the head section of a web page to provide additional information about that page to browsers, search engines, or other applications that access the page. <br>
+                Some examples of common uses of meta tags:
             </p>
 
-            <h4> &lt;title&gt;...&lt;/title&gt;</h4>
+            <ul>
+                <li><code><b>&lt;meta charset="UTF-8"&gt;</b></code>is used to define the type of character used in the document.</li>
+                <br>
+                <li><code><b>&lt;meta name="description" content="This is a web page description"&gt;</b></code>is used to provide a summary of what a web page is about, which is often used by search engines as a description in search results.</li>
+                <br>
+                <li><code><b>&lt;meta name="keywords" content="HTML, CSS, JavaScript"></b></code>is used to provide keywords relevant to the web page content, which are used by search engines to determine the relevance of the web page to searches.</li>
+                <br>
+                <li><code><b>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></b></code>is used to ensure that web pages display properly on mobile devices by adjusting the screen size and display scale.</li>
+                <br>
+                <li><code><b>&lt;meta name="robots" content="index,follow"></b></code>is used to tell search engines whether a web page should be indexed or followed.</li>
+            </ul>
+
+            <h4>&lt;title&gt;...&lt;/title&gt;</h4>
             <p>
                 The &lt;title&gt; tag in HTML is used to specify the title of a web page. This title will be displayed in a browser tab or window, and used by search engines as the title of search results.
             </p>
 
+            <h4>&lt;body&gt;... &lt;/body&gt;</h4>
+            <p>
+                The &lt;body&gt; tag in HTML is used to store content that will be displayed on a web page. All elements that will be displayed to users such as text, images, forms, links, etc. must be placed inside the &lt;body&gt; tag.
+            </p>
+
         </section>
 
-        <section id="Element" class="main-section">
+        <section id="Tag" class="main-section">
             <header>
-                <h3>Element</h3>
+                <h3>Tag</h3>
             </header>
             <code><p>hell world</p></code>
             <code><p>hello world</p></code>

@@ -62,11 +62,15 @@ img {
     background-color: #111;
 }
 
-code {
+.code {
     color: rgb(204, 204, 204);
 }
 
 a:hover {
     background-color: orange;
     transition: ease 0.5s;
+}
+
+code {
+    font-size: large;
 }
