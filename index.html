@@ -30,7 +30,7 @@
 
         <section id="Introduction" class="main-section">
             <header>
-                <h3>Introduction</h3>
+                <h2>Introduction</h2>
             </header>
             <img src="/img/icons8-html-5-240.png" alt="HTML5_Logo" title="HTML5_Logo">
             <p>HTML (Hyper-Text Markup Languange) or HTML5 is the most used Markup languange for web development.
@@ -49,12 +49,12 @@
 
         <section id="HTML5_Anatomy" class="main-section">
             <header>
-                <h3>HTML5 Anatomy</h3>
+                <h2>HTML5 Anatomy</h2>
             </header>
             <p>Before writing HTML5, you must first know about the anatomical structure of HTML5.</p>
             <p>In general, HTML5 has the following anatomical structure:</p>
             <div class="code">
-                <code class="code">
+                <code>
                     &lt;!DOCTYPE html&gt;
         <br> &lt;html&gt;       
         <br> &lt;head&gt;
@@ -128,7 +128,7 @@
 
         <section id="Tags" class="main-section">
             <header>
-                <h3>Tags</h3>
+                <h2>Tags</h2>
             </header>
             <p>
                 Tags in HTML are labels used in HTML documents to mark sections of content. Tags are usually written in
@@ -182,7 +182,7 @@
 
         <section id="Multimedia" class="main-section">
             <header>
-                <h3>Multimedia</h3>
+                <h2>Multimedia</h2>
             </header>
             <p>
                 In HTML, multimedia refers to elements that can be used to display various types of media, including
@@ -199,38 +199,76 @@
                 a few examples:</p>
             <ul>
                 <li>To add an image:</li>
-                <code class="code">
-                    &lt;img src="image.jpg" alt="A description of the image">
-                </code>
+                <div class="code">
+                    <code>
+                        &lt;img src="image.jpg" alt="A description of the image">
+                    </code>
+                </div>
                 <li>To add audio:</li>
-                <code class="code">
-                    &lt;audio controls>
-                    <br>&lt;source src="audio.mp3" type="audio/mpeg">
-                    &lt;/audio>
-                </code>
+                <div class="code">
+                    <code>
+                        &lt;audio controls>
+                        <br>&lt;source src="audio.mp3" type="audio/mpeg">
+                        &lt;/audio>
+                    </code>
+                </div>
                 <li>To add video:</li>
-                <code class="code">
-                    &lt;video width="320" height="240" controls>
-                <br>&lt;source src="video.mp4" type="video/mp4">
-                </code>
+                <div class="code">
+                    <code>
+                        &lt;video width="320" height="240" controls>
+                    <br>&lt;source src="video.mp4" type="video/mp4">
+                    </code>
+                </div>
             </ul>
+            <br>
+            <p>
+                You can also adjust the width and height of the multimedia and if you want to support multiple format
+                you can add multiple source of file types in <b>source</b> tag.
+            </p>
         </section>
 
         <section id="Form" class="main-section">
             <header>
-                <h3>Form</h3>
+                <h2>Form</h2>
             </header>
+            <p>
+                In HTML, a form is used to collect user input. The &lt;form> element is used to create the form, and
+                various form controls, such as text fields, checkboxes, and submit buttons, are placed within the form.
+            </p>
+            <p>Here's an example of a simple form that includes a text field, a password field, and a submit button:</p>
+            <div class="code">
+                <code>
+                    &lt;form action="/submit-form" method="post">
+                        <br>&lt;label for="username">Username:&lt;/label>
+                        <br>&lt;input type="text" id="username" name="username">
+                        <br>
+                        <br>&lt;label for="password">Password:&lt;/label>
+                        <br>&lt;input type="password" id="password" name="password">
+                        <br>
+                        <br>&lt;input type="submit" value="Submit">
+                        <br>&lt;/form>                  
+                </code>
+            </div>
+            <p>
+                The &lt;form> element has two important attributes: <b>action</b> and <b>method</b>. The <b>action</b> attribute specifies where the form data should be sent when the form is submitted, and the <b>method</b> attribute specifies the HTTP method (either "get" or "post") to be used when sending the form data.
+            </p>
+
+            <p>
+                The &lt;label> element is used to provide a text description for form controls. The for attribute is used to associate the label with a specific form control. The &lt;input> element is used to create the form controls, and the type attribute specifies the type of control (e.g. "text", "password", "checkbox", "submit"). The id and name attribute of the input element will be used when you want to get the value with javascript or when you want to submit the form and server can identify each input
+            </p>
+
+            <p></p>
         </section>
 
         <section id="Table" class="main-section">
             <header>
-                <h3>Table</h3>
+                <h2>Table</h2>
             </header>
         </section>
 
         <section id="Refference" class="main-section">
             <header>
-                <h3>Refference</h3>
+                <h2>Refference</h2>
             </header>
             <code><p>hello world</p></code>
             <code><p>hello world</p></code>
